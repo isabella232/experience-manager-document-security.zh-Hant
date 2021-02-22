@@ -1,38 +1,38 @@
 ---
-title: 下載Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft Office
-description: 使用Document Security Extension for Microsoft Office軟體來保護重要檔案不會遭到未經授權的存取
+title: 下載 Microsoft Office 版的 Adobe Experience Manager Document Security/LiveCycle Rights Management Extension
+description: '使用 Microsoft Office 軟體適用的 Document Security Extension，防止他人未經授權存取重要檔案。 '
 uuid: b4c7d1d1-7eae-4fd3-8282-132c80a976e8
 contentOwner: khsingh
 discoiquuid: b32c7bb8-0060-4c2a-90fc-446b6ba39159
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19de0b62ac493c7507581abb607b008c64f77597
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 下載Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft Office {#download-adobe-experience-manager-document-security-livecycle-rights-management-extension-for-microsoft-office}
+# 下載 Microsoft Office 適用的 Adobe Experience Manager Document Security/LiveCycle Rights Management Extension{#download-adobe-experience-manager-document-security-livecycle-rights-management-extension-for-microsoft-office}
 
-使用Document Security Extension for Microsoft Office軟體，您就可以隨時保護重要檔案，避免未經授權的存取（從檔案建立到散布、封存和銷毀），而不論檔案的散布方式或儲存位置為何。
+使用適用於 Microsoft Office 軟體適用的 Document Security Extension，可以隨時保護關鍵檔案以防止他人未經授權存取，並進而為敏感資訊保密；不論檔案如何分發或儲存在何處，從文件建立至分發、建檔和毀損全程得到保護。
 
 >[!NOTE]
 >
->此擴充功能支援LiveCycle Rights Management ES2或更新版本，以及AEM 6.0 Forms或更新版本的Document Security附加元件。
+>此擴充功能支援 LiveCycle Rights Management ES2 或以上版本，以及 AEM 6.0 Forms 或以上版的 Document Security 附加元件。
 
-## 系統要求{#system-requirements}
+## 系統需求{#system-requirements}
 
-* 32位元或64位元版本的Microsoft Windows 7或Windows 10
-* 注意：Microsoft Office的檔案安全性擴充功能也預期可在Microsoft Surface裝置上運作。
-* 32位元或64位元版本Microsoft Office 2013、2016、2019或Microsoft Office案頭應用程式已安裝為Office 365的一部分
-* 1.3 GHz或以上的處理器
-* 2GB的記憶體
-* 100 MB可用硬碟空間
+* Microsoft Windows 7 或 Windows 10 的 32 位元或 64 位元版本
+* 注意：Microsoft Office 適用的 Document Security Extension 也預計可在 Microsoft Surface 裝置上使用。
+* Microsoft Office 2013、2016、2019 的 32 位元或 64 位元版本，或安裝為 Office 365 一部分的 Microsoft Office 桌面應用程式
+* 1.3 GHz 或更快處理器
+* 2 GB RAM
+* 100 MB 的可用硬碟空間
 
-## 下載安裝程式{#download-installer}
+## 下載安裝程式 {#download-installer}
 
-| Microsoft Office 32位元 | [下載EXE](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice.exe) | [下載MSI](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice.zip) |
+| Microsoft Office 32 位元 | [下載 EXE](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice.exe)： | [下載 MSI](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice.zip)： |
 |---|---|---|
-| Microsoft Office 64位元 | [下載EXE](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice64.exe) | [下載MSI](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice64.zip) |
+| Microsoft Office 64 位元 | [下載 EXE](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice64.exe)： | [下載 MSI](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice64.zip)： |
 
