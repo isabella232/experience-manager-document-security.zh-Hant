@@ -1,61 +1,61 @@
 ---
 source-git-commit: 01f54993debc281ff69d3588af01a9a41b7295d7
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '430'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
-# Contribute文章
+# Contribute 文章
 
-我們歡迎來自社群的貢獻，以及來自檔案團隊以外的Adobe員工。
+我們歡迎社區以及文件團隊外部的 Adobe 員工出力貢獻。
 
 ## Adobe 開放原始碼行為準則
 
 本專案已採用 [Adobe 開放原始碼管理辦法](code-of-conduct.md)或 [.NET Foundation 管理辦法](https://dotnetfoundation.org/code-of-conduct)。如需詳細資訊，請參閱[貢獻](contributing.md)一文。
 
-## 關於您對Adobe內容的貢獻
+## 關於您對 Adobe 內容的貢獻
 
-請參閱[Adobe Docs投稿人指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+請參閱 [Adobe 文件投稿人指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
 
-您的貢獻方式取決於您的身份，以及您想要貢獻的變更：
+您的貢獻方式取決於您是誰，以及您想貢獻的變更類型：
 
 ### 小幅變更
 
-如果您是出於善意而提供小幅更新，請造訪文章，然後按一下文章中的&#x200B;**Edit**&#x200B;連結，該連結會前往文章的GitHub來源。 然後，只要使用GitHub UI進行更新即可。 如需詳細資訊，請參閱一般[Adobe Docs投稿人指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+如果您是出於善心貢獻小幅更新，請瀏覽並按一下文章中的「**編輯**」連結，可前往文章的 GitHub 來源。然後，只需使用 GitHub UI 進行更新。請參閱一般 [Adobe 文件投稿人指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) 的更多資訊。
 
-Adobe使用條款涵蓋您提交之本回購檔案及程式碼範例的輕微更正或澄清。
+您在本存放庫為文件和代碼範例提交的小幅更正或釐清均包含在 Adobe 使用條款。
 
-### 社群成員的重大變更或新文章
+### 來自社區成員的重大變更或新文章
 
-如果您是Adobe社群的一員，而您想要建立新文章或提交重大變更，請使用Git存放庫中的「問題」索引標籤來提交問題，以開始與檔案團隊對話。 在您同意計畫後，您需要與員工合作，透過公共和私人儲存庫中的組合工作，協助將新內容帶入。
+如果您屬於 Adobe 社區，並且想要建立新文章或提交重大變更，請使用 Git 存放庫中的「問題」標籤來提交問題，並展開與文件團隊的對話。一旦您同意了計劃，就需要與員工一起工作，透過結合公共和私有存放庫的工作來幫助引入新內容。
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Adobe員工的重大變更
+### 來自 Adobe 員工的重大變動
 
-如果您是Adobe Experience Cloud解決方案產品團隊的技術撰稿人、計畫經理或開發人員，而您的工作是撰寫或撰寫技術文章，則應使用`https://git.corp.adobe.com/AdobeDocs`的私人儲存庫。
+如果您是 Adobe Experience Cloud 解決方案的技術作家、方案經理或產品團隊的開發人員，您的工作是投稿或撰寫技術文章，因此您應該使用私人存放庫：`https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
-## 工具與設定
+## 工具和設定
 
-社群參與者可使用GitHub UI進行基本編輯，或將repo分叉以作出重大貢獻。
+社區投稿人可以使用 GitHub UI 進行基本編輯，也可以使用存放庫來做出重要貢獻。
 
-如需詳細資訊，請參閱[Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+請參閱 [Adobe 文件投稿人指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) 的詳細資訊。
 
-## 如何使用標籤格式化主題
+## 如何使用 Markdown 將主題格式化
 
-此儲存庫中的所有文章都使用GitHub調味的標籤。 如果您不熟悉Markdown，請參閱：
+該存放庫內的所有文章均使用 GitHub 風格的 Markdown。如果您不熟悉 Markdown，請參閱：
 
-* [Markdown基本概念](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [可列印的下拉式標籤表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown 基本認識](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Markdown 可列印快覽單](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 標籤
 
-在公共儲存庫中，會自動分配標籤來提取請求，以幫助我們管理提取請求工作流，並幫助您瞭解提取請求的進行情況：
+公共存放庫內已為提取要求指定自動標籤，可幫助我們管理提取要求的工作流程，並幫助您了解自己的提取要求情形：
 
-* **變更已傳送至作者**:提交者已收到擱置中提取請求的通知。
-* **就緒合併**:我們的拉式要求審閱團隊可隨時進行審閱。
+* **變更已傳送給作者**：已向作者通知待處理的提取要求。
+* **準備合併**：準備好供我們的提取要求審核小組進行審核。
