@@ -1,89 +1,89 @@
 ---
-title: AEM Document Security Extension for Microsoft Office簡介
-description: 使用Document Security Extension for Microsoft Office，您可以將預先定義的機密設定套用至Microsoft Office檔案。
+title: Microsoft Office 適用的 AEM Document Security Extension 介紹
+description: 使用 Microsoft Office 適用的 Document Security Extension，您可以將預先定義的機密性設定套用至 Microsoft Office 檔案。
 uuid: a5428c50-fae3-4823-9e6f-0f5306e7248f
 content-type: reference
 topic-tags: using
 discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19de0b62ac493c7507581abb607b008c64f77597
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1304'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# AEM Document Security Extension for Microsoft Office{#introduction-to-aem-document-security-extension-for-microsoft-office}簡介
+# Microsoft Office 適用的 AEM Document Security Extension 介紹{#introduction-to-aem-document-security-extension-for-microsoft-office}
 
-Adobe® Experience Manager Document Security Extension for Microsoft® Office可確保只有您授權的人員才能使用包含智慧財產的Word、Excel和PowerPoint檔案。 使用Document Security Extension for Microsoft Office，您就可將預先定義的機密設定套用至檔案。
+Microsoft® Office 適用的 Adobe® Experience Manager Document Security Extension 可確保，只有您授權的人才能使用含有您智慧財產的 Word、Excel 和 PowerPoint 檔案。使用 Microsoft Office 適用的 Document Security Extension，您可以將預先定義的機密性設定套用至您的檔案。
 
-Document Security Extension for Microsoft Office擴充了Adobe Experience Manager Forms的LiveCycle Rights Management和Document Security附加元件，以保護Word、Excel和PowerPoint檔案，並讓已安裝此軟體的授權使用者根據原則中建立的機密設定，使用受原則保護的檔案。
+Microsoft Office 適用的 Document Security Extension 延伸了 Adobe Experience Manager Forms 的 LiveCycle Rights Management 和 Document Security 附件，可保護 Word、Excel 和 PowerPoint 文件，並允許已安裝此軟體的授權用戶根據原則內所訂的機密性設定使用受原則保護的檔案。
 
-## Document Security如何保護智慧財產{#how-document-security-protects-intellectual-property}
+## Document Security 如何保護智慧財產 {#how-document-security-protects-intellectual-property}
 
-Document Security可確保只有您授權的人員才能使用包含智慧財產的檔案。 使用Document Security，您可以使用機密原則保護檔案。 *原則*&#x200B;是包含機密設定和授權使用者清單的資訊集合。 您在原則中指定的設定會決定收件者如何使用您套用原則的檔案。 例如，您可以指定收件者是可以列印、複製文字或儲存變更。
+Document Security 可確保只有您授權的人員才能使用包含您智慧財產的檔案。使用 Document Security，即可以透過使用機密性原則來保護檔案。*原則*&#x200B;是包含機密性設定和授權用戶清單的資訊集合。您在原則中指明的設定可確定收件者如何使用您套用原則的檔案。例如，您可以指明收件人是否可以列印或複製文字或儲存變更。
 
-Document Security管理員和使用者建立原則。 管理員建立可供所有授權使用者使用的組織原則。 管理員或原則集協調者也可以建立名為&#x200B;*原則集*&#x200B;的原則群組，供使用者子集使用。 使用者可建立自己的原則，只有他們可以使用。 管理員、原則集協調者和使用者都可使用Document Security網頁來建立原則。
+Document Security 管理員和用戶會建立原則。管理員會建立適用於所有授權用戶的組織原則。管理員或原則組專員也可建立稱為&#x200B;*原則組*&#x200B;且適用於部分用戶的原則群組。用戶可以建立他們自己可以使用的原則。管理員、原則組專員和用戶會使用 Document Security 網頁來建立原則。
 
-雖然原則儲存在Document Security中，但您仍可透過Word、Excel或PowerPoint將原則套用至檔案。 將原則套用至檔案時，檔案包含的資訊會受到原則中指定的機密設定保護。 當您分發受原則保護的檔案時，只有經過原則授權的收件者才能存取檔案的內容。
+雖然原則是儲存在 Document Security 上，但是您可以透過 Word、Excel 或 PowerPoint 套用於檔案中。當您將原則套用於檔案時，檔案所含資訊將受到原則所指明的機密性設定的保護。當您分發受原則保護的檔案時，只有受原則授權的收件人才能存取檔案內容。
 
-使用原則保護檔案可讓您持續控制該檔案，即使在您分發檔案後亦然。 您可以稽核事件來追蹤收件者使用檔案的時間和方式、變更原則、防止使用者繼續存取檔案，以及變更檔案所附加的原則。
+使用原則來保護檔案，可以讓您持續控制該檔案，即使在分發文件之後也是如此。您可以稽核事件以追蹤收件人何時及如何使用您的檔案、變更原則、防止用戶繼續存取檔案，以及變更附加至檔案的原則。
 
-## 策略的運作方式{#how-policies-work}
+## 原則如何運作{#how-policies-work}
 
-原則包含授權使用者的相關資訊以及要套用至智慧財產的機密設定。 使用者可以是Document Security透過連結的LDAP或Active Directory清單中內含項目識別的任何使用者。 使用者也可以是受邀向Document Security註冊或管理員為其建立帳戶的人員。
+原則包含有關授權用戶的資訊，以及套用至智慧財產的機密性設定。用戶可以是透過包含在已連結的 LDAP 或 Active Directory 列表內而被 Document Security 辨識的任何用戶。用戶也可以是被邀請註冊 Document Security 的人，或管理員為他們建立帳戶的人。
 
-原則中的機密設定會決定收件者如何使用受原則保護的檔案。 例如，原則會指定收件者是否可列印檔案、將內容複製到其他檔案，或儲存對受保護檔案的變更。 策略還可以為各種用戶指定不同的機密設定。
+原則中的機密性設定可確定收件人如何使用受該原則保護的檔案。例如，原則會指明收件人是否能列印檔案、將內容複製到其他檔案，或是否可儲存變更至受保護的檔案。原則還可以為不同用戶指明不同的機密性設定。
 
-將原則套用至檔案時，檔案包含的資訊會受到原則中指定的機密設定保護。 當您分發檔案時，Document Security會驗證嘗試開啟檔案的收件者，並根據原則中指定的權限授與存取權。
+當您將原則套用於檔案時，檔案所含資訊將受到原則所指明的機密性設定的保護。當您分發文件時，Document Security 會對嘗試開啟檔案的收件人進行驗證，並根據原則中指定的權限來授權存取權。
 
-將原則套用至檔案後，可隨時變更原則的機密設定，讓您新增或移除已授權的使用者，或在使用者收到檔案後變更其權限。 可以更改應用於檔案的策略，並可以撤銷對檔案的訪問，以便擁有檔案副本的任何人都不能再開啟該檔案。
+在套用原則至檔案後，您可以隨時變更原則的機密性設定；且允許您在用戶收到檔案後新增或移除獲授權的用戶，或者變更用戶的權限。套用至檔案的原則可以變更，且檔案的存取權可以撤銷，這樣擁有該文檔案副本的任何人都無法再開啟。
 
-如果原則允許離線存取，收件者也可以在原則中指定的時段離線使用受原則保護的檔案（沒有作用中的網際網路或網路連線）。
+如果原則准許離線存取，則收件人也可以在原則指定的時限內離線使用受原則保護的檔案 (沒有有效網際網路或網絡連線)。
 
-## 受原則保護檔案的運作方式{#how-policy-protected-files-work}
+## 受原則保護的檔案如何運作 {#how-policy-protected-files-work}
 
-若為要開啟和使用受原則保護之Word、Excel和PowerPoint檔案的使用者，原則必須將使用者納入為收件者或允許匿名存取，且使用者必須已安裝Document Security Extension for Microsoft Office。 若要將受原則保護的檔案提供給沒有Document Security Extension for Microsoft Office的使用者，請提供軟體副本或告知他們如何從您的網站下載。 如果您沒有安裝程式，則可從[下載頁面](https://www.adobe.com/products/livecycle/rightsmanagement/extension/downloads.html)下載。
+若要讓用戶開啟並使用受原則保護的 Word、Excel 和 PowerPoint 檔案，該原則必須將該用戶列為收件人或允許匿名存取，並且該用戶必須安裝 Microsoft Office 適用的 Document Security Extension。要將受原則保護的檔案提供給沒有 Microsoft Office 適用的 Document Security Extension 的人，可以為他們提供一份軟體，或者讓他們知道如何從您的網站下載該功能。如果您沒有安裝程序，可以從 [下載頁面](https://www.adobe.com/products/livecycle/rightsmanagement/extension/downloads.html)下載。
 
-當使用者嘗試開啟受原則保護的檔案時，Document Security Extension for Microsoft Office會連線至Document Security以驗證使用者。 如果Document Security已設定為稽核檔案使用情形，使用者會看到通知，指出正在稽核檔案使用情形。 Document Security會決定授與使用者的檔案權限，然後使用者可以根據原則設定，在下列情況下使用檔案：
+當用戶嘗試打開受原則保護的檔案時，Microsoft Office 適用的 Document Security Extension 會連線至 Document Security，以便對用戶進行驗證。如果將 Document Security 設為稽核檔案使用情況，則用戶會看到通知並指明正在稽核檔案使用情況。文件全性會確定授予用戶哪些檔案權限，然後用戶可以根據原則設定使用檔案，但前提為：
 
-* 對於策略中指定的有效期。
-* 在管理員或套用原則的人員廢止檔案的存取權或變更原則之前。
+* 在原則中指定的有效期限。
+* 直到管理員或套用原則的人撤銷檔案存取權或變更原則為止。
 
-   如果套用原則的人員變更原則或廢止檔案的存取權，即使使用者已擁有檔案，使用者對檔案的權限也會變更或移除。 如果檔案本身已撤銷，則可提供URL給使用者以取得更新的復本。
+   如果套用原則的人變更原則或撤銷檔案存取權，用戶的檔案權限會變更或移除，即使用戶擁有該檔案也一樣。如果檔案本身被撤銷，用戶可能會收到 URL 以取得更新版本。
 
-   如果原則允許離線存取，則可在原則中指定的離線租用期間離線開啟受原則保護的檔案（沒有網際網路或網路連線）。 離線租用期間結束時，使用者必須上線並與Document Security同步，Document Security會啟動新的租用期間。
+   如果原則准許離線存取，則在原則指定的離線租期內，受原則保護檔案可在離線 (沒有網際網路或網絡連線) 開啟。在離線租期結束時，用戶必須上線並與 Document Security 同步處理，這樣便會展開新的租期。
 
-   如果原則允許儲存檔案，而使用者儲存受原則保護檔案的副本，則會自動套用並強制儲存的檔案使用原則。 也會檢查並記錄與原始檔案相同的事件，例如嘗試開啟新檔案。
+   如果原則允許儲存檔案，且用戶儲存一份受原則保護的檔案，則該原則將自動套用於已儲存的檔案並強制執行。活動 (例如嘗試開啟新檔案的活動) 也將與原始檔案一樣進行稽核和記錄。
 
-## 使用Document Security保護您的檔案{#using-document-security-to-protect-your-files}
+## 使用 Document Security 來保護您的檔案 {#using-document-security-to-protect-your-files}
 
-您可以在各種情況下使用原則來保護檔案。
+您可在各種情況下使用原則來保護檔案。
 
-例如，製造商接受將為新產品提供部件的供應商的投標。 製造商必須向投標者提供其完成提交所需的專有資訊。 製造商使用Document Security來保護檔案，其原則允許投標者開啟檔案並檢視資訊。 但是，投標者無法變更、列印或複製檔案，而沒有權限的任何人也無法開啟檔案。
+例如，生產商正在接受新產品零件提供商的標單。生產商必須為投標人提供他們最後提出標單所需的專有資訊。生產商可使用 Document Security 的原則來保護檔案；該原則是用來允許投標者開啟文件並查看資訊。但是，投標者將無法變更、列印或複製檔案；如果沒有權限，任何人都無法開啟檔案。
 
-在接受其中一個競標後，製造商會更新原則，以授與成功競標者在本機列印、複製和儲存變更的權限，並移除不成功的競標者，以便他們不再擁有開啟檔案的權限。
+在接受其中一項標價後，生產商將更新原則以便為得標者提供權限，讓他們可從本機列印、複製和儲存任何變更內容；同時，生產商會移除非得標者，讓他們再無權限開啟檔案。
 
-在與成功競標者合作時，製造商的工程師會變更檔案中的部分設計規格。 為發佈新規格，製造商會廢止部分檔案的存取權並發佈新版本。 當成功競標者的工程師嘗試開啟檔案時，他們會看到訊息，表示檔案的存取權已撤銷。 訊息包含URL，供他們下載新檔案版本。
+生產商與得標者合作時，他們的工程師會變更檔案中的部分設計規格。為了發布新規格，生產商會撤銷部分檔案的存取權並發布新版本。當得標者的工程師嘗試開啟檔案時，他們會看到一個訊息指出檔案存取權已被撤銷。這個訊息含有一個 URL，讓他們下載檔案的新版本。
 
 ## 其他資訊 {#additional-information}
 
-此表格中的資源可協助您進一步瞭解AEM Document Security:
+下表資源可以幫助您了解更多有關 AEM Document Security：
 
 <table >
  <tbody>
   <tr>
-   <th><p>如需相關資訊</p> </th>
+   <th><p>關於後述資訊：</p> </th>
    <th><p>請參閱</p> </th>
   </tr>
   <tr>
-   <td><p>AEM Forms Administrator說明</p> </td>
-   <td><p><a href="http://www.adobe.com/go/learn_aemforms_admin_65">管</a> 理員說明，在Document Security管理頁面上，按一下頁面右上角的「說明」連結。</p> </td>
+   <td><p>AEM Forms 管理員說明</p> </td>
+   <td><p><a href="http://www.adobe.com/go/learn_aemforms_admin_65_tw">管理員說明</a>，或在「Document Security」管理頁面上，按一下頁面右上角的「說明」連結。</p> </td>
   </tr>
   <tr>
-   <td><p>修補程式更新、技術說明，以及有關此產品版本的其他資訊</p> </td>
-   <td><p><a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html">Marketing Cloud技術支援</a></p> </td>
+   <td><p>Patch 更新、技術提示，以及有關此產品版的其他資訊</p> </td>
+   <td><p><a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html">Marketing Cloud 技術支援</a></p> </td>
   </tr>
  </tbody>
 </table>
