@@ -1,126 +1,126 @@
 ---
-title: AEM Document Security for Microsoft Office —— 發行說明
-description: 在安裝AEM Document Security 6.2 Extension for Microsoft Office之前，請先閱讀版本注意事項。
+title: Microsoft Office 適用的 AEM Document Security Extension - 版本注意事項
+description: 在安裝 Microsoft Office 適用的 AEM Document Security 6.2 Extension，請閱讀版本注意事項。
 uuid: f6ab73d4-ac4e-4fff-9bb8-917b75401653
 content-type: reference
 topic-tags: installing
 discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 403b800eab086d131beb65a496836158778954ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# AEM Document Security for Microsoft Office —— 發行說明{#aem-document-security-for-microsoft-office-release-notes}
+# Microsoft Office 適用的 AEM Document Security Extension - 版本注意事項{#aem-document-security-for-microsoft-office-release-notes}
 
-## AEM Document Security for Microsoft Office的新增功能{#whats-new-in-aem-document-security-for-microsoft-office}
+## Microsoft Office 適用的 AEM Document Security 新增功能{#whats-new-in-aem-document-security-for-microsoft-office}
 
-* **支援Office 2019**:Document Security Extension for Microsoft Office已新增對Microsoft Office 2019的支援。此外，它還可與作為Office 365一部分安裝的Microsoft Office 2019案頭應用程式搭配使用。
+* **Office 2019 的支援服務**：Microsoft Office 適用的 Document Security Extension 新增了 Microsoft Office 2019 所需支援。此項支援應該適用於安裝成為 Office 365 一部分的 Microsoft Office 2019 桌面應用程式。
 
 >[!NOTE]
 >
->本檔案可交替使用Adobe Experience Manager Document Security for Microsoft Office、Adobe Experience Manager Document Security Extension for Microsoft Office和Document Security Extension for Microsoft Office的術語。
+>本文件會交換使用以下用語：Microsoft Office 適用的 Adobe Experience Manager Document Security、Microsoft Office 適用的 Adobe Experience Manager Document Security Extension，以及 Microsoft Office 適用的 Document Security Extension。
 
-## 安裝和設定AEM Document Security Extension for Microsoft Office {#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
+## 安裝和設定 Microsoft Office 適用的 AEM Document Security Extension{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
-此版本的Document Security Extension for Microsoft Office與Adobe LiveCycle Rights Management ES2及更新版本以及AEM表單的Document Security附加元件相容。
+本版本 Microsoft Office 適用的 Document Security Extension 相容於 Adobe LiveCycle Rights Management ES2 或以上版本，以及 AEM Forms 適用的 Document Security 附加元件。
 
-在安裝AEM Document Security Extension for Microsoft Office之前，請先檢閱本檔案中的資訊。 如需詳細的安裝指示，請參閱[「安裝與設定AEM Document Security Extension for Microsoft Office](installing-configuring-aemdsext.md)」文章。
+在安裝 Microsoft Office 適用的 AEM Document Security Extension 以前，請閱讀本文件資訊。有關詳細的安裝指示，請參閱 [安裝和設定 Microsoft Office 適用的 AEM Document Security Extension](installing-configuring-aemdsext.md) 文章。
 
 ## 已修正的問題 {#fixed-issues}
 
-* 字串會垂直顯示，而內容會加上錯誤的分行符號。 (參考編號 CQ-4201054)
+* 垂直顯示的字串和錯誤的分行符號已新增至內容中。(參考編號 CQ-4201054)
 
 ## 已知問題 {#known-issues}
 
-### 不支援協力廠商外掛程式{#third-party-plug-ins-not-supported}
+### 不支援協力廠商的外掛程序 {#third-party-plug-ins-not-supported}
 
-AEM Document Security Extension for Microsoft Office無法與協力廠商外掛程式搭配使用。 在安裝Document Security Extension for Microsoft Office之前，請先解除安裝任何Microsoft Office的協力廠商外掛程式。
+Microsoft Office 適用的 AEM Document Security Extension 不適用於協力廠商的外掛程式。在安裝 Microsoft Office 適用的 Document Security Extension 以前，先解除安裝 Microsoft Office 適用的協力廠商外掛程式。
 
-### Microsoft Word、Excel和PowerPoint {#disabled-menu-options-in-microsoft-word-excel-and-powerpoint}中停用的功能表選項
+### 停用 Microsoft Word、Excel 和 PowerPoint 中的功能表選項 {#disabled-menu-options-in-microsoft-word-excel-and-powerpoint}
 
-AEM Document Security Extension for Microsoft Office使用內建的保護功能來保護檔案、工作表和簡報。 它會停用一些Excel、Word和PowerPoint功能表選項。
+Microsoft Office 適用的 AEM Document Security Extension 使用內建的保護功能，可保護文件、活頁簿和簡報。此功能會停用一些 Excel 、Word 和 PowerPoint 功能表選項。
 
-### Microsoft Office 2013、2016和2019的限制{#restrictions-for-microsoft-office}
+### Microsoft Office 2013、2016 和 2019 的限制 {#restrictions-for-microsoft-office}
 
-在Microsoft Office中，受保護作業階段期間無法使用下列選項：
+在 Microsoft Office 中，以下選項在受保護工作階段中均無法使用：
 
-* Microsoft Office 2016或Microsoft Office 2019
+* Microsoft Office 2016 或 Microsoft Office 2019
 
-   * 「檔案>另存新檔」
-   * 「檔案>步驟記錄」
-   * 「檔案>共用」
-   * 「檔案>匯出」
-   * 「檔案>發佈」
-   * 「檔案>帳戶」
-   * 「檔案>資訊>保護檔案／活頁簿／簡報>使用密碼加密」
-   * 「檔案>資訊>保護檔案>新增數位簽章」
-   * 「檔案>資訊>保護檔案>標示為完稿」
-   * 右上角的購股權
+   * 檔案 > 另存新檔
+   * 檔案 > 歷程記錄
+   * 檔案 > 共用
+   * 檔案 > 匯出
+   * 檔案 > 發佈
+   * 檔案 > 帳戶
+   * 檔案 > 資訊 > 保護文件/活頁簿/簡報 > 以密碼加密
+   * 檔案 > 資訊 > 保護文件 > 新增數位簽名
+   * 檔案 > 資訊 > 保護文件 > 標示為完稿
+   * 右上方的共用選項
 
 * Microsoft Office 2013
 
-   * 「檔案>另存新檔」
-   * 「檔案>共用」
-   * 「檔案>匯出」
-   * 「檔案>帳戶」
-   * 「檔案>資訊>保護檔案／活頁簿／簡報>使用密碼加密」
-   * 「檔案>資訊>保護檔案>新增數位簽章」
-   * 「檔案>資訊>保護檔案>標示為完稿」
+   * 檔案 > 另存新檔
+   * 檔案 > 共用
+   * 檔案 > 匯出
+   * 檔案 > 帳戶
+   * 檔案 > 資訊 > 保護文件/活頁簿/簡報 > 以密碼加密
+   * 檔案 > 資訊 > 保護文件 > 新增數位簽名
+   * 檔案 > 資訊 > 保護文件 > 標示為完稿
 
-### 從SharePoint Server {#opening-a-protected-document-from-sharepoint-server}開啟受保護的文檔
+### 開啟 SharePoint 伺服器的受保護文件 {#opening-a-protected-document-from-sharepoint-server}
 
-開啟受保護的檔案：如果您嘗試從SharePoint伺服器在Document Security Extension for Microsoft Office中開啟受保護的檔案，而未先開啟與檔案類型（例如Microsoft Word、Microsoft Excel或Microsoft PowerPoint）相關的Microsoft Office程式，則檔案可能無法開啟。 會顯示錯誤訊息，指出您已安裝適用的外掛程式。 因此，建議您在從SharePoint伺服器開啟Document Security Extension for Microsoft Office中受保護的檔案之前，先開啟相關的Microsoft Office程式。
+開啟受保護的文件：嘗試從 SharePoint 伺服器 Microsoft Office 適用的 Document Security Extension 中開啟受保護的文件時，而不開啟與該檔案類型有關聯的 Microsoft Office 程式 (如 Microsoft Word、Microsoft Excel 或 Microsoft PowerPoint) 時，該文件可能不會開啟。錯誤訊息顯示您安裝了適用的外掛程式。因此，從 SharePoint 伺服器 Microsoft Office 適用的 Document Security Extension 中開啟受保護的文件以前，建議您要先開啟相關的 Microsoft Office 程式。
 
-（可選）建議您在Document Security Extension for Microsoft Office中從SharePoint伺服器開啟受保護的檔案之前，先清除快取資料夾。
+(選項) 從 SharePoint 伺服器 Microsoft Office 適用的 Document Security Extension 中開啟受保護的文件以前，建議您要先清除快取檔案夾。
 
-當您從SharePoint伺服器開啟受保護的檔案時，無論套用的原則為何，檔案的所有權限都會停用。
+當您從 SharePoint 伺服器開啟受保護的文件時，不論是否套用原則，文件上所有權限皆為停用狀態。
 
-### 在未安裝{#apply-a-policy-with-a-dynamic-watermark-to-microsoft-excel-microsoft-excel-and-microsoft-excel-file-with-no-printer-installed}印表機的情況下，將含動態浮水印的原則套用至Microsoft Excel 2013、Microsoft Excel 2016和Microsoft Excel 2019檔案
+### 在未安裝印表機時，針對 Microsoft Excel 2013、Microsoft Excel 2016 和 Microsoft Excel 2019 檔案套用附動態浮水印的原則 {#apply-a-policy-with-a-dynamic-watermark-to-microsoft-excel-microsoft-excel-and-microsoft-excel-file-with-no-printer-installed}
 
-當您在未安裝任何印表機的電腦上，將含動態浮水印的原則套用至Microsoft Excel 2013、Microsoft Excel 2016和Microsoft Excel 2019檔案，然後儲存檔案時，會出現下列錯誤：&quot;應用動態水印時出現內部錯誤。&quot; 當您重新開啟受保護的檔案時，也會出現此錯誤。 水印不會套用，且不會從「檢視>頁面配置」中顯示。
+當您在未安裝印表機的電腦上，針對 Microsoft Excel 2013、Microsoft Excel 2016 和 Microsoft Excel 2019 檔案套用附動態浮水印的原則，會出現下列錯誤：「套用動態浮水印時發生內部錯誤。」當您重新開啟受保護檔案時，也會出現此錯誤。浮水印未套用，且在「檢視 > 頁面配置」無法看見。
 
-### 針對支援的Office應用程式禁用Windows資料執行預防{#disable-windows-data-execution-prevention-for-supported-office-applications}
+### 停用所支援 Office 應用程式適用的 Windows 資料執行防止 {#disable-windows-data-execution-prevention-for-supported-office-applications} 
 
-建議您在使用Document Security Extension for Microsoft Office應用程式時停用Windows資料執行預防(DEP)設定。
+在使用 Microsoft Office 應用程式適用的 Document Security Extension 時，建議您停用 Windows 資料執行防止。
 
-### 使用Document Security Extension {#shared-microsoft-office-files-cannot-be-protected-using-document-security-extension}無法保護共用的Microsoft Office檔案
+### 使用 Document Security Extension 的共用 Microsoft Office 檔案無法保獲得保護 {#shared-microsoft-office-files-cannot-be-protected-using-document-security-extension}
 
-當您使用Document Security Extension保護任何共用的Microsoft Office檔案時，會發生錯誤，而且共用檔案未受到保護。
+當您使用 Document Security Extension 保護任何共同的 Microsoft Office 時，會發生錯誤且共享檔案並不安全。
 
-### 在包含Document Security Extension for Microsoft Office和McAfee VirusScan {#starting-office-applications-on-a-machine-containing-document-security-extension-for-microsoft-office-and-mcafee-virusscan}的機器上啟動Office應用程式
+### 在含有 Microsoft Office 和 McAfee VirusScan 適用的 Document Security Extension 的電腦中啟動 Office 應用程式 {#starting-office-applications-on-a-machine-containing-document-security-extension-for-microsoft-office-and-mcafee-virusscan}
 
-要確保在安裝了Document Security且啟用了McAfee VirusScan的On-Access Scan的電腦上能夠順暢地啟動Office應用程式，請禁用McAfee VirusScan控制台中的「緩衝區溢出保護」選項。
+若電腦有已安裝的 Document Security，並有已啟用即時 (On-Access) 掃描的 McAfee VirusScan，為了確保此電腦能順利啟動 Office 應用程式，請停用 McAfee VirusScan 控制台中的「緩衝區溢位保護」選項。
 
-### 在具有不支援之Microsoft Office語言{#installing-document-security-extension-for-microsoft-office-on-a-machine-with-an-unsupported-microsoft-office-language}的機器上安裝Document Security Extension for Microsoft Office
+### 在含有不支援 Microsoft Office 語言的電腦上安裝 Microsoft Office 適用的 Document Security Extension {#installing-document-security-extension-for-microsoft-office-on-a-machine-with-an-unsupported-microsoft-office-language}
 
-在具有不支援語言之Microsoft Office應用程式的機器上安裝Document Security Extension for Microsoft Office之前，請至少開啟一次Office應用程式。
+若電腦中含有不支援語言的 Microsoft Office 應用程式，則在安裝 Microsoft Office 適用的 Document Security Extension 以前，要先開啟 Office 應用程式至少一次。
 
-### 即使使用者沒有離線權限{#synchronize-offline-button-is-enabled-even-when-a-user-does-not-have-offline-permissions},「離線同步」按鈕仍會啟用
+### 即使用戶沒有離線權限，「同步處理離線」按鈕也呈啟用狀態 {#synchronize-offline-button-is-enabled-even-when-a-user-does-not-have-offline-permissions}
 
-即使使用者沒有檔案的離線權限，「離線同步化」按鈕仍可供使用。 但是，選擇該按鈕將不起作用。
+即使用戶沒有文件的離線權限，也可以使用「離線同步處理」按鈕。但是，選取按鈕不會起任何作用。
 
-### 不支援Microsoft Office {#no-support-for-trial-versions-of-microsoft-office}試用版
+### 不支援試用版的 Microsoft Office {#no-support-for-trial-versions-of-microsoft-office}
 
-Document Security extension for Microsoft Office不支援Microsoft Office的試用版。 在安裝擴充功能之前，請確定您已安裝Microsoft Office的授權副本，並且已啟動。
+Microsoft Office 適用的 Document Security Extension 不支援試用版的 Microsoft Office。在安裝此擴充功能以前，請確保您已安裝授權版的 Microsoft Office 且將其啟用。
 
-### 無法開啟受保護的Microsoft Office檔案{#unable-to-open-a-protected-microsoft-office-files}
+### 無法開啟受原則保護的 Microsoft Office 檔案 {#unable-to-open-a-protected-microsoft-office-files}
 
-如果Microsoft Office的受保護檢視已啟用，Right Management Extension無法從遠端位置開啟受保護的Microsoft Excel檔案(XLS、XLSX)和受保護的Microsoft PowerPoint(PPT)檔案。
+如果已啟用 Microsoft Office 的受保護檢視&#x200B;&#x200B;，則 Right Management Extension 無法開啟遠端位置的 Microsoft Excel 檔案 (XLS、XLSX) 和受保護的 Microsoft PowerPoint (PPT) 檔案。
 
-### 包含影像或背景顏色的Microsoft Excel檔案儲存格會出現在浮水印{#cells-of-microsoft-excel-document-containing-an-image-or-background-color-appear-on-top-of-watermark}上方
+### 含有影像或背景顏色 Microsoft Excel 文件儲存格會出現在浮水印上方 {#cells-of-microsoft-excel-document-containing-an-image-or-background-color-appear-on-top-of-watermark}
 
-如果Microsoft Excel文檔的單元格包含影像或填充了背景顏色，並且動態水印策略應用於文檔，則填充到單元格中的影像或背景顏色將出現在水印的頂部並覆蓋水印。
+如果 Microsoft Excel 文件儲存格含有影像或填滿背景顏色，並且文件動用了動態浮水印原則，則該儲存格的影像或填滿的背景顏色將顯示在浮水印上方，並且會遮蓋浮水印。
 
-### 多個憑證{#usability-issue-with-multiple-certificates}的可用性問題
+### 多個憑證的可用性問題 {#usability-issue-with-multiple-certificates}
 
-如果客戶機上存在多個證書，並且用戶取消證書選擇對話框，則對話框將再次出現，用戶必須取消對話框兩次。
+如果客戶端電腦上存在多個憑證，且用戶取消了憑證選擇對話框，則該對話框將再次出現，然後用戶必須取消對話框兩次。
 
-### Microsoft PowerPoint可讓您編輯受保護的檔案{#microsoft-powerpoint-allows-editing-protected-documents}
+### Microsoft PowerPoint 允許編緝受保護的文件 {#microsoft-powerpoint-allows-editing-protected-documents}
 
-嘗試編輯受保護的檔案時，Microsoft PowerPoint會顯示一則訊息，「您不允許修改此檔案。 您將無法儲存您所做的變更。」 在關閉訊息後，使用者可以繼續新增文字或編輯檔案。 但是，對受保護檔案所做的變更不會儲存。
+在嘗試編輯受保護的文件時，Microsoft PowerPoint 將顯示訊息：「您無權修改此文件。」您無法儲存您的變更。」訊息關閉後，用戶可以繼續新增文字或編輯文件。但是，受保護文件所做的變更無法儲存。
 
-上述行為與PowerPoint 2013、PowerPoint 2016和PowerPoint 2019中的預期一樣。
+PowerPoint 2013、PowerPoint 2016 和 PowerPoint 2019 會產生上述行為。
