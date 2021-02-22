@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Learn & Support
+solution-title: 學習與支援
 solution-hub-url: https://helpx.adobe.com/tw/support/experience-manager.html
 getting-started-title: 快速入門
 getting-started-url: https://helpx.adobe.com/tw/experience-manager/get-started.html
@@ -9,11 +9,11 @@ tutorials-url: https://experienceleague.adobe.com/?tag=Tutorial#recommended/solu
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-document-security.zh-Hant
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 29c078e0820b42b53eb65061893e45c8cb63e549
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ metadata.md 檔案包含存放庫層級中繼資料，這些中繼資料會傳�
 | mini-toc-levels | 決定顯示在右側欄中的標題層數量。預設值為 2 |
 | git-repo | 指定內部使用的主要存放庫位置 |
 
-在TOC.md檔案中
+在 TOC.md 檔案中
 
 | 中繼資料 | 功能 |
 |--- |--- |
-| user-guide-title | 在文章標題中作為連結使用 |
-| user-guide-url | 開啟 Helpx 中樞頁面 |
+| 使用手冊名稱 | 在文章標題中作為連結使用 |
+| 使用手冊-url | 開啟 Helpx 中樞頁面 |
