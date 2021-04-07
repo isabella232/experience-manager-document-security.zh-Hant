@@ -9,9 +9,9 @@ breadcrumb-title: 文件安全性指南
 user-guide-description: Document Security Extension for Microsoft® Office 可確保只有您授權的人員才能使用包含您智慧財產權的 Word、Excel 和 PowerPoint 檔案。
 feature: 文件安全性
 role: 業務從業人員
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7be2b17e7685a391dcccde2cc008802b5773cadf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
 ht-degree: 100%
 
