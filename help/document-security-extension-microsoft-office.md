@@ -5,14 +5,14 @@ uuid: a5428c50-fae3-4823-9e6f-0f5306e7248f
 content-type: reference
 topic-tags: using
 discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
+exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
 translation-type: ht
-source-git-commit: 19de0b62ac493c7507581abb607b008c64f77597
+source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
 workflow-type: ht
 source-wordcount: '1304'
 ht-degree: 100%
 
 ---
-
 
 # Microsoft Office 適用的 AEM Document Security Extension 介紹{#introduction-to-aem-document-security-extension-for-microsoft-office}
 
@@ -87,4 +87,3 @@ Document Security 管理員和用戶會建立原則。管理員會建立適用�
   </tr>
  </tbody>
 </table>
-
