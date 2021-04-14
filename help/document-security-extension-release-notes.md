@@ -5,14 +5,14 @@ uuid: f6ab73d4-ac4e-4fff-9bb8-917b75401653
 content-type: reference
 topic-tags: installing
 discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
+exl-id: 582f10bb-60d2-46ed-b81d-5818a040edc6
 translation-type: ht
-source-git-commit: 403b800eab086d131beb65a496836158778954ee
+source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
 workflow-type: ht
 source-wordcount: '1030'
 ht-degree: 100%
 
 ---
-
 
 # Microsoft Office 適用的 AEM Document Security Extension - 版本注意事項{#aem-document-security-for-microsoft-office-release-notes}
 
