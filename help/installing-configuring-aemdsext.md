@@ -5,14 +5,14 @@ uuid: 9d7eb6bb-4780-4d82-8657-7c6c6d523af0
 content-type: reference
 topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
+exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 translation-type: ht
-source-git-commit: ac385c538cdd7d3bb4772b92ee7a94b003595f56
+source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
 workflow-type: ht
 source-wordcount: '2796'
 ht-degree: 100%
 
 ---
-
 
 # 安裝和設定 Microsoft Office 適用的 AEM Document Security Extension{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
