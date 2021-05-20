@@ -6,9 +6,8 @@ content-type: reference
 topic-tags: using
 discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
 exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
-translation-type: ht
 source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 100%
 
