@@ -4,9 +4,8 @@ description: 安裝和設定 AEM Document Security
 uuid: 799702ab-019b-4d5f-bdb5-71df3ec88b8b
 contentOwner: dhv
 discoiquuid: 3a13781d-02c4-404b-893a-6cd094a0295b
-translation-type: ht
 source-git-commit: 19de0b62ac493c7507581abb607b008c64f77597
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 100%
 
