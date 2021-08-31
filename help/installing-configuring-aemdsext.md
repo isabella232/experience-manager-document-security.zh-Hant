@@ -6,10 +6,10 @@ content-type: reference
 topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
-source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
+source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
 workflow-type: tm+mt
-source-wordcount: '2796'
-ht-degree: 100%
+source-wordcount: '2764'
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ Microsoft Office 適用的 AEM Document Security Extension 不支援 Microsoft O
 * 2 GB RAM
 * 100 MB 的可用硬碟空間
 
-### Document Security {#document-security}
+### 文件安全性 {#document-security}
 
 若要使用 Document Security Extension，您可以連線至 Adobe LiveCycle Rights Management ES2 及以上版本，或 AEM 6.0 Forms 或以上版本適用的 Document Security 附加元件。
 
@@ -104,7 +104,13 @@ Microsoft Office 適用的 AEM Document Security Extension 不支援 Microsoft O
 
 ### 自訂安裝程式的先決條件 {#prerequisites-for-customizing-the-installer}
 
-使用 Orca 資料庫編輯器來自訂安裝程式。下列步驟說明如何使用 Orca 資料庫編輯器來修改 MSI 安裝檔案，進而建立自訂的 MSI 檔案。Orca 是 Windows Server 2008 和 .NET Framework 3.5 適用的 Windows SDK 的一部分。有關如何使用 Orca 編輯 Microsoft Windows®的更多資訊，請參閱 [Microsoft 支援服務](http://support.microsoft.com/kb/255905/EN-US/)。
+使用 Orca 資料庫編輯器來自訂安裝程式。下列步驟說明如何使用 Orca 資料庫編輯器來修改 MSI 安裝檔案，進而建立自訂的 MSI 檔案。Orca是Windows SDK for Windows Server 2008和.NET Framework 3.5的一部分。
+
+<!--
+
+For more information about how to edit Microsoft Windows® Installer files using Orca, see [Microsoft Support](http://support.microsoft.com/kb/255905/EN-US/).
+
+-->
 
 >[!NOTE]
 >
@@ -112,7 +118,7 @@ Microsoft Office 適用的 AEM Document Security Extension 不支援 Microsoft O
 
 #### 安裝 Orca {#install-orca}
 
-1. 下載 Windows Server 2008 和 .NET Framework 3.5 適用的 Windows SDK [Microsoft 下載中心](http://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=11310)。
+1. 下載Windows SDK for Windows Server 2008和.NET Framework 3.5。
 1. 在 \Microsoft SDK\bin 檔案夾中按兩下 Orca.msi 檔案。
 
    您還需要安裝程式檔案的 MSI 變數。若要獲得最新版 MSI 安裝程式，請與 Adobe 支援人員聯絡。
@@ -180,7 +186,7 @@ Microsoft Office 適用的 AEM Document Security Extension 不支援 Microsoft O
 * 用戶編輯和儲存未受保護的文件
 * 用戶開啟以預設文件開啟的應用程式，進行編輯後儲存該文件
 
-### 在 MSI 檔案中設定自動套用原則功能 {#configure-the-auto-apply-policy-feature-in-the-msi-file}
+### 在 MSI 檔案中設定自動套用原則功能  {#configure-the-auto-apply-policy-feature-in-the-msi-file}
 
 在開始之前，請將安裝程式預先設定為指向您的 LiveCycle 或 AEM Forms 伺服器 (如本文前面所述)。
 
@@ -358,7 +364,7 @@ CommonResources.dll 檔案含有關於資源範本的資訊。檔案含有兩個
    >
    >不要以隨機順序刪除和新增資源類型。在 101 以後，設定 102，依此類推。
 
-### 使用 Microsoft Office 適用 AEM Document Security Extension 的安裝程式，封裝自訂的 CommonResources.dll 檔案 {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
+### 使用 Microsoft Office 適用 AEM Document Security Extension 的安裝程式，封裝自訂的 CommonResources.dll 檔案   {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
 
 您可以自訂 CommonResources.dll 檔案，以包含新增自訂封面頁。在自訂檔案後，您可以手動方式在所有工作站上以自訂檔案取代原始檔案，也可以選擇自動方式來取代檔案。
 
