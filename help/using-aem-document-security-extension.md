@@ -7,7 +7,7 @@ topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
 source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6252'
 ht-degree: 100%
 
@@ -159,7 +159,7 @@ ht-degree: 100%
 * 在 AEM Forms 伺服器上設定 SAML 驗證
 * 自訂 WAR 檔案含有自訂驗證頁面和完整邏輯，可接受對 AEM Forms 伺服器的用戶憑證和驗證；將自訂 WAR 檔案部署至 AEM Forms 伺服器。
 
-#### 使用特訂頁面列出 SAML 驗證 {#using-custom-page-for-listing-saml-authentications}
+#### 使用自訂頁面列出 SAML 驗證 {#using-custom-page-for-listing-saml-authentications}
 
 您也可顯示自訂頁面，以提供設定在 AEM Forms 伺服器的所有驗證服務提供者。若要建立這類頁面，請執行下列步驟：
 
@@ -171,7 +171,7 @@ ht-degree: 100%
 
    現在，AEM Forms Document Security 已設定為顯示包含所有已設定驗證服務提供者的自訂頁面。
 
-### 取得用戶帳戶 {#obtaining-a-user-account}
+### 取得使用者帳戶 {#obtaining-a-user-account}
 
 如果您還沒有 Document Security 帳戶，則當下列情況發生時，Document Security 功能可能會啟動註冊程序：
 
@@ -181,20 +181,18 @@ ht-degree: 100%
 當您註冊並啟用帳戶後，即可以使用您已有權使用原則的受原則保護檔案。
 
 >[!NOTE]
->
->如果您收到受原則保護的檔案，且沒有 Document Security 帳戶，或者如果您收到註冊邀請，請與向您發送文件的人聯絡以尋求幫助。
+如果您收到受原則保護的檔案，且沒有 Document Security 帳戶，或者如果您收到註冊邀請，請與向您發送文件的人聯絡以尋求幫助。
 
 如果您收到來自 Document Security 的電子郵件註冊邀請，則您可以使用電子郵件中的 URL 進行註冊，以便開啟打開線上註冊頁面。註冊後，您將收到關於啟用帳戶的第二次通知。
 
-#### 取得外部用戶帳戶 {#obtain-an-external-user-account}
+#### 取得外部使用者帳戶 {#obtain-an-external-user-account}
 
 1. 開啟 Document Security 註冊電子郵件。此訊息提供的 URL 是前往「Document Security外部用戶註冊」頁面的連結。如果您沒有收到註冊訊息，請與向您發送檔案的人聯絡以尋求幫助。
 1. 請按一下 URL，或將其複製貼到您的瀏覽器。
 1. 在對應的方框中輸入您的姓名、組織和密碼。您的密碼可以是八個字元的任意組合。
 
    >[!NOTE]
-   >
-   >確保選擇易記住的密碼；目前沒有方法可以找到忘記的密碼。
+   確保選擇易記住的密碼；目前沒有方法可以找到忘記的密碼。
 
 1. 按一下「**註冊**」。系統會顯示訊息，通知您查看電子郵件中的啟用電子郵件訊息。
 1. 開啟 Document Security 註冊的確認電子郵件。
@@ -332,8 +330,7 @@ Word、Excel 和 PowerPoint 檔案不支援在 Document Security 網頁中建立
 在套用原則以後，原則會新增至 AEM Document Security 選單上的「最近使用」列表中，這樣您便更易套用最常用的原則。如果您使用多個 Document Security 執行個體，則「最近使用」列表將顯示您目前所連線伺服器或預設伺服器的原則 (如果尚未登至 Document Security 執行個體)。
 
 >[!NOTE]
->
->您只能將原則套用在 Word 文件檔案 (Microsoft Office 2010 和 2013 中的 .doc、also.docx 和 .docm)、Excel 活頁簿檔案 (Microsoft Office 2010 和 2013 中的 .xls、also.xlsx 和 .xlsm)，以及 PowerPoint 簡報檔案 (Microsoft Office 2010 和 2013 中的 .ppt、.pptx 和 .pptm)。您不能將原則套用在 Word 範本檔案 (.dot)、Excel 範本檔案 (.xlt) 和 PowerPoint 範本檔案 (.pot)。
+您只能將原則套用在 Word 文件檔案 (Microsoft Office 2010 和 2013 中的 .doc、also.docx 和 .docm)、Excel 活頁簿檔案 (Microsoft Office 2010 和 2013 中的 .xls、also.xlsx 和 .xlsm)，以及 PowerPoint 簡報檔案 (Microsoft Office 2010 和 2013 中的 .ppt、.pptx 和 .pptm)。您不能將原則套用在 Word 範本檔案 (.dot)、Excel 範本檔案 (.xlt) 和 PowerPoint 範本檔案 (.pot)。
 
 #### 套用一項原則 {#apply-a-policy}
 
@@ -364,8 +361,7 @@ Microsoft Office 適用的 Document Security Extension 會限制 Word、Excel �
 如果您是使用受原則保護的檔案，則某些產品功能可能不適用或無法正常使用。如果您還打開了未受保護的檔案，則該檔案的大多數功能都可供使用，但您無法從自己沒有複製或匯出權限的受原則保護檔案中匯入或複製內容。
 
 >[!NOTE]
->
->在使用有 Document Security Extension 支援的 Office 應用程式時，建議您停用 Windows DEP 設定。同時，若電腦有已安裝的 Document Security Extension，並有已啟用即時 (On-Access) 掃描的 McAfee VirusScan，為了確保此電腦能順利啟動 Office 應用程式，請停用 McAfee VirusScan 控制台中的「緩衝區溢位保護」選項。
+在使用有 Document Security Extension 支援的 Office 應用程式時，建議您停用 Windows DEP 設定。同時，若電腦有已安裝的 Document Security Extension，並有已啟用即時 (On-Access) 掃描的 McAfee VirusScan，為了確保此電腦能順利啟動 Office 應用程式，請停用 McAfee VirusScan 控制台中的「緩衝區溢位保護」選項。
 
 如果有某個功能無法使用，則選單上的命令名稱和相關的工具欄按鈕將不適用。在 Microsoft Office 適用的 Document Security Extension 中，當您將滑鼠指標停留在命令或按鈕上時，工具提示會指出該命令因 Document Security 而無法使用。
 
@@ -392,8 +388,7 @@ Microsoft Office 適用的 Document Security Extension 會限制 Word、Excel �
    如果您尚未提供 Document Security 的登入資訊，則會出現對話框提示您輸入用戶名稱和密碼。
 
 >[!NOTE]
->
->如果您無法從已受保護的檔案中移除原則，請與文件安全管理員聯絡。
+如果您無法從已受保護的檔案中移除原則，請與文件安全管理員聯絡。
 
 
 ### 檢視安全性設定 {#viewing-security-settings}
@@ -413,8 +408,7 @@ Microsoft Office 適用的 Document Security Extension 會限制 Word、Excel �
 如果啟用自動套用原則，Microsoft Office 適用的 Document Security Extension 將提示您登入 Document Security 伺服器。您需要提供用戶名稱和密碼，才能獲得伺服器的驗證。如果您提供了正確的登入憑證，文件將會儲存並受到保護。
 
 >[!NOTE]
->
->如果您無法登入使用 Document Security，則文件可能會或不會儲存；實際情形取決於管理員如何設定自動套用原則。向管理員查詢，在這種情況下會如何處理文件。
+如果您無法登入使用 Document Security，則文件可能會或不會儲存；實際情形取決於管理員如何設定自動套用原則。向管理員查詢，在這種情況下會如何處理文件。
 
 ### 離線存取的同步處理 {#synchronizing-for-offline-access}
 
@@ -432,7 +426,7 @@ Microsoft Office 適用的 Document Security Extension 支援受原則保護文�
 
 檔案 Document Security Extension 不支援豐富的浮水印功能，例如 PDF 式浮水印、浮水印中的多個元素、文字格式選項和頁面範圍。
 
-您可以使用 Document Security 網頁建立動態浮水印。若要更多了解如何在受原則保護文件中建立並納人動態浮水印，請參閱 [Document Security 用戶說明](http://www.adobe.com/go/learn_lc_euRightsMgmt_11)。
+您可以使用 Document Security 網頁建立動態浮水印。若要更多了解如何在受原則保護文件中建立並納人動態浮水印，請參閱 [Document Security 用戶說明](http://www.adobe.com/go/learn_lc_euRightsMgmt_11_tw)。
 
 Microsoft Office 適用的 Document Security Extension 可提供這些浮水印功能的支援：
 
@@ -510,7 +504,7 @@ Microsoft Office 適用的 Document Security Extension 可提供這些浮水印�
 
 1. 指定要顯示的訊息，並指定更新版的 URL (若有)，然後按一下「**確定**」。
 
-若要了解撤銷檔案存取權限的更多資訊，請參閱 [Document Security 用戶說明](http://help.adobe.com/en_US/AEMForms/6.1/RMHelp/)。
+若要了解撤銷檔案存取權限的更多資訊，請參閱 [Document Security 用戶說明](http://help.adobe.com/zh_TW/AEMForms/6.1/RMHelp/)。
 
 存取權限可透過 Document Security 網頁恢復。
 
@@ -553,8 +547,7 @@ Document Security 網頁會開啟至活動頁面，並顯示目前檔案的已�
 如果命令不適用，則選單中命令名稱和相關的工具欄按鈕會呈現灰色。
 
 >[!NOTE]
->
->若套用原則的檔案中含有前往嵌入式檔案的連結時，該原則不會套用在所連結的檔案中。Microsoft Office 適用的 Document Security 功能不會將保護延伸至所連結的檔案。
+若套用原則的檔案中含有前往嵌入式檔案的連結時，該原則不會套用在所連結的檔案中。Microsoft Office 適用的 Document Security 功能不會將保護延伸至所連結的檔案。
 
 
 * 受原則保護的 Word、Excel 和 PowerPoint 檔案會被封鎖，而無法在 Internet Explorer 瀏覽器視窗中開啟。
@@ -798,4 +791,4 @@ Changes** 含有動態浮水印的受原則檔案無法使用。
 
 ## 字彙表 {#glossary}
 
-關於 JEE 術語的 LiveCycle 和 AEM Forms 資訊，請參閱 [字彙表](http://www.adobe.com/go/learn_aemforms_designer_65)。
+關於 JEE 術語的 LiveCycle 和 AEM Forms 資訊，請參閱 [字彙表](http://www.adobe.com/go/learn_aemforms_designer_65_tw)。
