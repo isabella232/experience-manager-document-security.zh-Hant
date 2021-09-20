@@ -8,7 +8,7 @@ mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-document-security.zh-Hant
 index: true
 source-git-commit: f8c8ec57aa5966b4b55ad782d8fdf0a156de25c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
 ht-degree: 100%
 
