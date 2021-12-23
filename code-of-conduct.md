@@ -1,7 +1,6 @@
 ---
-source-git-commit: 19de0b62ac493c7507581abb607b008c64f77597
-workflow-type: ht
-translation-type: ht
+source-git-commit: 362a6222c16f5a3f2a0bb2a9d365d2af4dbccfee
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 
@@ -48,5 +47,4 @@ ht-degree: 100%
 
 ## 出處
 
-此管理辦法是修改自[Contributor Covenant](https://contributor-covenant.org) (1.4 版本)
-可瀏覽 [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+本行為準則改編自[貢獻者公約](https://contributor-covenant.org) 1.4 版，可在此取得：[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)。
