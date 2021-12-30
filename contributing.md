@@ -1,13 +1,13 @@
 ---
 source-git-commit: 3687bd5e276bd3445d12fb19d911f6a9ded1077d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-# 協助撰寫AEM Document Security Extension for Microsoft Office檔案
+# Microsoft Office 適用的 AEM Document Security Extension 文件投稿
 
-感謝您選擇貢獻AEM Document Security Extension for Microsoft Office檔案！ 我們樂於接受來自整個讀者社群以及 Adobe 員工的內容貢獻。
+感謝您選擇 Microsoft Office 適用的 AEM Document Security Extension 文件投稿！我們樂於接受來自整個讀者社群以及 Adobe 員工的內容貢獻。
 
 本檔案說明您應如何提供內容，並指出在提供內容時應遵循的指南。
 
