@@ -1,13 +1,13 @@
 ---
 source-git-commit: 1bc44195024fc4679c7730fa9c7b309c84c55605
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
-# AEM Document Security Extension for Microsoft Office檔案
+# Microsoft Office 適用的 AEM Document Security Extension 文件
 
-這是AEM Document Security Extension for Microsoft Office檔案的存放庫。
+這是 Microsoft Office 適用的 AEM Document Security Extension 文件存放庫。
 
 歡迎您協助撰寫本說明文件。請參閱下列資源：
 
