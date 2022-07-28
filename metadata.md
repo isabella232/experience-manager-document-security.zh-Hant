@@ -5,10 +5,10 @@ product: adobe experience manager
 type: Documentation
 feature-set: Experience Manager Forms
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-document-security.zh-Hant
+git-repo: https://github.com/AdobeDocs/experience-manager-document-security.zh-Hant
 index: true
 source-git-commit: f8c8ec57aa5966b4b55ad782d8fdf0a156de25c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
 
