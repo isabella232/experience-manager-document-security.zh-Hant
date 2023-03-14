@@ -13,9 +13,9 @@ ht-degree: 100%
 
 ---
 
-# Microsoft Office 適用的 AEM Document Security Extension - 版本注意事項{#aem-document-security-for-microsoft-office-release-notes}
+# Microsoft Office 適用的 AEM Document Security - 版本注意事項{#aem-document-security-for-microsoft-office-release-notes}
 
-## Microsoft Office 適用的 AEM Document Security 新增功能{#whats-new-in-aem-document-security-for-microsoft-office}
+## Microsoft Office 適用的 AEM Document Security 新增功能 {#whats-new-in-aem-document-security-for-microsoft-office}
 
 * **Office 2019 的支援服務**：Microsoft Office 適用的 Document Security Extension 新增了 Microsoft Office 2019 所需支援。此項支援應該適用於安裝成為 Office 365 一部分的 Microsoft Office 2019 桌面應用程式。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >本文件會交換使用以下用語：Microsoft Office 適用的 Adobe Experience Manager Document Security、Microsoft Office 適用的 Adobe Experience Manager Document Security Extension，以及 Microsoft Office 適用的 Document Security Extension。
 
-## 安裝和設定 Microsoft Office 適用的 AEM Document Security Extension{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
+## 安裝和設定 Microsoft Office 適用的 AEM Document Security Extension {#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
 本版本 Microsoft Office 適用的 Document Security Extension 相容於 Adobe LiveCycle Rights Management ES2 或以上版本，以及 AEM Forms 適用的 Document Security 附加元件。
 
@@ -82,7 +82,7 @@ Microsoft Office 適用的 AEM Document Security Extension 使用內建的保護
 
 當您在未安裝印表機的電腦上，針對 Microsoft Excel 2013、Microsoft Excel 2016 和 Microsoft Excel 2019 檔案套用附動態浮水印的原則，會出現下列錯誤：「套用動態浮水印時發生內部錯誤。」當您重新開啟受保護檔案時，也會出現此錯誤。浮水印未套用，且在「檢視 > 頁面配置」無法看見。
 
-### 停用所支援 Office 應用程式適用的 Windows 資料執行防止 {#disable-windows-data-execution-prevention-for-supported-office-applications} 
+### 停用所支援 Office 應用程式適用的 Windows 資料執行防止   {#disable-windows-data-execution-prevention-for-supported-office-applications}
 
 在使用 Microsoft Office 應用程式適用的 Document Security Extension 時，建議您停用 Windows 資料執行防止。
 
