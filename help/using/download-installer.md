@@ -6,7 +6,7 @@ contentOwner: khsingh
 discoiquuid: b32c7bb8-0060-4c2a-90fc-446b6ba39159
 exl-id: 25d2f439-e6c9-4d0a-bbd1-91d0f00dc683
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 
