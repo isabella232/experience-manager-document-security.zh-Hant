@@ -8,7 +8,7 @@ topic-tags: using
 discoiquuid: bdc3f174-e417-4d3e-b3af-972cdcc10133
 exl-id: 98f24032-0774-47f8-bcc5-1ee37b417833
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -16,13 +16,13 @@ ht-degree: 100%
 
 # 疑難排解 Microsoft Office 適用的 AEM Document Security Extension{#troubleshooting-aem-document-security-extension-for-microsoft-office}
 
-## 疑難排解安裝和設定問題 {#troubleshootinginstallationandconfiguration}
+## 安裝和設定問題疑難排解 {#troubleshootinginstallationandconfiguration}
 
 如果在安裝和設定 Microsoft Office 適用的 AEM Document Security Extension 時遇到問題，在安裝之前，請確保仔細按照「[安裝](installing-configuring-aemdsext.md)」文章一節的說明進行。
 
 如果您是根據文件說明安裝並設定所有內容，請查看以下各節來解決與您所遇到類似的問題。
 
-### 無法為 Microsoft Office 應用程式載入 Document Security Extension {#document-security-extension-fails-to-load-for-microsoft-office-applications}
+### Microsoft Office 應用程式無法載入 Document Security Extension {#document-security-extension-fails-to-load-for-microsoft-office-applications}
 
 Windows 登錄中的 LoadBehavior 屬性會指定 Document Security 外掛程式的執行階段行為。如果 LoadBehavior 屬性設定為 3，則所有外掛程式會自動載入。在安裝 Microsoft Office 適用的 Document Security Extension 以前，請確保將 LoadBehavior 屬性值設定為 3。
 
@@ -36,8 +36,8 @@ Windows 登錄中的 LoadBehavior 屬性會指定 Document Security 外掛程式
 
 ## 疑難排解系統管理工作 {#admintasks}
 
-本節將討論已安裝 AEM Document Security Extension 的可能問題。
+本節討論已安裝的 AEM Document Security Extension 的可能問題。
 
-### 在安裝 Document Security Extension 時，Microsoft Office 應用程式不會順利啟動 {#microsoft-office-applications-dont-start-smoothly-on-installing-document-security-extension}
+### 在安裝 Document Security Extension 時，Microsoft Office 應用程式無法順利啟動 {#microsoft-office-applications-dont-start-smoothly-on-installing-document-security-extension}
 
-若電腦有已安裝的 Document Security Extension，並有已啟用即時 (On-Access) 掃描的 McAfee VirusScan，為了確保此電腦能順利啟動 Office 應用程式，請停用 McAfee VirusScan 控制台中的「緩衝區溢位保護」選項。
+為確保已經安裝 Document Security Extension 並且啟用 McAfee VirusScan 常駐掃描的電腦可以順利啟動 Office 應用程式，請至 McAfee VirusScan 主控台停用「緩衝區溢位保護」選項。
