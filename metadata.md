@@ -7,9 +7,10 @@ feature-set: Experience Manager Forms
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-document-security.zh-Hant
 index: true
-source-git-commit: f8c8ec57aa5966b4b55ad782d8fdf0a156de25c4
-workflow-type: tm+mt
-source-wordcount: '130'
+recommendations: noDisplay
+source-git-commit: 8b36d6dd8755d779c5e7f258df3ee2c68a5d1a5e
+workflow-type: ht
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
