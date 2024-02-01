@@ -9,7 +9,7 @@ git-repo: https://github.com/AdobeDocs/experience-manager-document-security.zh-H
 index: true
 recommendations: noDisplay
 source-git-commit: 8b36d6dd8755d779c5e7f258df3ee2c68a5d1a5e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 100%
 
