@@ -7,8 +7,8 @@ topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
-source-wordcount: '6231'
+workflow-type: ht
+source-wordcount: '6242'
 ht-degree: 100%
 
 ---
@@ -75,6 +75,7 @@ ht-degree: 100%
 >如果您無法連線到伺服器，請嘗試在 Internet Explorer 中開啟 Document Security 網頁。如果無法使用 Internet Explorer 連線到伺服器，或者如果對話框顯示有關伺服器憑證的警告，則 Microsoft® Office 適用的 Document Security Extension 無法連線到伺服器。請聯絡伺服器管理員取得協助。
 
 >[!NOTE]
+>
 >如果無法連線到 Document Security，則會顯示一項訊息指出：「使用者名稱和密碼不正確，請查看您的設定，然後重試」。如果由於其他原因無法連線，則可能會顯示此訊息。如果您是第一次連線到伺服器，請驗證您的伺服器名稱和連接埠設定是否正確。
 
 #### 指定預設伺服器 {#specify-the-default-server}
@@ -109,6 +110,7 @@ ht-degree: 100%
    按一下「**[!UICONTROL 儲存]**」。
 
    >[!NOTE]
+   >
    >在 URL 中使用完整主機名稱。建議使用 HTTPS 協定。
 
    現在，AEM Forms Document Security 設定為使用延伸驗證及預設的 AEM Forms 登陸 URL。
@@ -133,6 +135,7 @@ ht-degree: 100%
 1. 將以上項目新增至 SSO 節點下的 config.xml 檔案，但在項目 *&lt;node name=&quot;AllowedUrls&quot;>* 後面：
 
    >[!NOTE]
+   >
    >&lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/>!!discoiqbr!!&lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;>!!discoiqbr!!&lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/>!!discoiqbr!!
 
    關於更新 config.xml 檔案的詳細步驟資訊，請參閱[手動編輯 Document Security 設定檔案](https://helpx.adobe.com/tw/aem-forms/6-3/admin-help/configuring-client-server-options.html#manually_editing_the_document_security_configuration_file)。
@@ -178,6 +181,7 @@ ht-degree: 100%
 當您註冊並啟用帳戶後，即可以使用您已有權使用原則的受原則保護檔案。
 
 >[!NOTE]
+>
 >如果您收到受原則保護的檔案，且沒有 Document Security 帳戶，或者如果您收到註冊邀請，請與向您發送文件的人聯絡以尋求幫助。
 
 如果您收到來自 Document Security 的電子郵件註冊邀請，則您可以使用電子郵件中的 URL 進行註冊，以便開啟打開線上註冊頁面。註冊後，您將收到關於啟用帳戶的第二次通知。
@@ -189,6 +193,7 @@ ht-degree: 100%
 1. 在對應的方框中輸入您的姓名、組織和密碼。您的密碼可以是八個字元的任意組合。
 
    >[!NOTE]
+   >
    >確保選擇易記住的密碼；目前沒有方法可以找到忘記的密碼。
 
 1. 按一下「**註冊**」。系統會顯示訊息，通知您查看電子郵件中的啟用電子郵件訊息。
@@ -327,6 +332,7 @@ Word、Excel 和 PowerPoint 檔案不支援在 Document Security 網頁中建立
 在套用原則以後，原則會新增至 AEM Document Security 選單上的「最近使用」列表中，這樣您便更易套用最常用的原則。如果您使用多個 Document Security 執行個體，則「最近使用」列表將顯示您目前所連線伺服器或預設伺服器的原則 (如果尚未登至 Document Security 執行個體)。
 
 >[!NOTE]
+>
 >您只能將原則套用在 Word 文件檔案 (Microsoft® Office 2010 和 2013 中的 .doc、also.docx 和 .docm)、Excel 活頁簿檔案 (Microsoft® Office 2010 和 2013 中的 .xls、also.xlsx 和 .xlsm)，以及 PowerPoint 簡報檔案 (Microsoft® Office 2010 和 2013 中的 .ppt、.pptx 和 .pptm)。您不能將原則套用在 Word 範本檔案 (.dot)、Excel 範本檔案 (.xlt) 和 PowerPoint 範本檔案 (.pot)。
 
 #### 套用一項原則 {#apply-a-policy}
@@ -358,6 +364,7 @@ Microsoft® Office 適用的 Document Security Extension 會限制 Word、Excel 
 如果您是使用受原則保護的檔案，則某些產品功能可能不適用或無法正常使用。如果您還打開了未受保護的檔案，則該檔案的大多數功能都可供使用，但您無法從自己沒有複製或匯出權限的受原則保護檔案中匯入或複製內容。
 
 >[!NOTE]
+>
 >在使用有 Document Security Extension 支援的 Office 應用程式時，建議您停用 Windows DEP 設定。同時，若電腦有已安裝的 Document Security Extension，並有已啟用即時 (On-Access) 掃描的 McAfee VirusScan，為了確保此電腦能順利啟動 Office 應用程式，請停用 McAfee VirusScan 控制台中的「緩衝區溢位保護」選項。
 
 如果有某個功能無法使用，則選單上的命令名稱和相關的工具欄按鈕將不適用。在 Microsoft® Office 適用的 Document Security Extension 中，當您將滑鼠指標停留在命令或按鈕上時，工具提示會指出該命令因 Document Security 而無法使用。
@@ -385,6 +392,7 @@ Microsoft® Office 適用的 Document Security Extension 會限制 Word、Excel 
    如果您尚未提供 Document Security 的登入資訊，則會出現對話框提示您輸入使用者名稱和密碼。
 
 >[!NOTE]
+>
 >如果您無法從已受保護的檔案中移除原則，請與文件安全管理員聯絡。
 
 
@@ -405,6 +413,7 @@ Microsoft® Office 適用的 Document Security Extension 會限制 Word、Excel 
 如果啟用自動套用原則，Microsoft® Office 適用的 Document Security Extension 會提示您登入 Document Security 伺服器。您必須提供使用者名稱和密碼，才能獲得伺服器的驗證。如果您提供了正確的登入憑證，文件會儲存並受到保護。
 
 >[!NOTE]
+>
 >如果您無法登入使用 Document Security，則文件可能會或不會儲存；實際情形取決於管理員如何設定自動套用原則。向管理員查詢，在這種情況下會如何處理文件。
 
 ### 離線存取的同步處理 {#synchronizing-for-offline-access}
@@ -415,7 +424,7 @@ Microsoft® Office 適用的 Document Security Extension 會限制 Word、Excel 
 
 * 在 Microsoft® Office 2010 和 Office 2013 適用的 Document Security Extension 中，在「**Document Security**」標籤上，選取「**離線同步處理**」。
 
-   ***注意**：即使使用者沒有文件的離線權限，也可以使用「離線同步處理」按鈕。但是，選取按鈕不會起任何作用。*
+  ***注意**：即使使用者沒有文件的離線權限，也可以使用「離線同步處理」按鈕。但是，選取按鈕不會起任何作用。*
 
 ### 使用動態浮水印 {#working-with-dynamic-watermarks}
 
@@ -544,6 +553,7 @@ Document Security 網頁會開啟至活動頁面，並顯示目前檔案的已�
 如果命令不適用，則選單中命令名稱和相關的工具欄按鈕會呈現灰色。
 
 >[!NOTE]
+>
 >若套用原則的檔案中含有前往嵌入式檔案的連結時，該原則不會套用在所連結的檔案中。Microsoft® Office 適用的 Document Security 功能不會將保護延伸至所連結的檔案。
 
 * 受原則保護的 Word、Excel 和 PowerPoint 檔案會被封鎖，而無法在 Internet Explorer 瀏覽器視窗中開啟。
